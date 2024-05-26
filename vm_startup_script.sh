@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Creates a machine with the below config and include the below VM startup script
-# -Machine Type: e2-highmem-2
+# -Machine Type: e2-highmem-4
 # -Boot OS: debian-12-bookworm-x86/64
 # -Size(GB): 200
 # -Network Tags: sapmachine
