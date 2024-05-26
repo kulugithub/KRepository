@@ -7,7 +7,7 @@
 # -Network Tags: sapmachine
 # -Cloud API access scopes: Allow full access to all Cloud APIs
 # VM startup script
-# curl https://raw.githubusercontent.com/google-cloud-abap/community/main/blogs/abap-trial-docker-1909/vm_startup_script.sh -o /tmp/vm_startup_script.sh
+# curl https://github.com/kulugithub/KRepository/blob/master/vm_startup_script.sh -o /tmp/vm_startup_script.sh
 # chmod 755 /tmp/vm_startup_script.sh
 # nohup /tmp/vm_startup_script.sh > /tmp/output.txt &
 
