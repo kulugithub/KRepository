@@ -29,7 +29,7 @@ sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 #Download image and install abap-cloud-developer-trial
 # Pull the docker image
-sudo docker pull sapse/abap-cloud-developer-trial
+sudo docker pull sapse/abap-cloud-developer-trial:ABAPTRIAL_2022
 
 # Start the docker container
 sudo docker run \
