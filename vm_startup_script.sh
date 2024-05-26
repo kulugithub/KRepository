@@ -27,9 +27,9 @@ echo \
 sudo apt-get update
 sudo apt-get -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-#Download image and install SAP 1909 Trial
+#Download image and install abap-cloud-developer-trial
 # Pull the docker image
-sudo docker pull sapse/abap-platform-trial:1909
+sudo docker pull sapse/abap-cloud-developer-trial
 
 # Start the docker container
 sudo docker run \
@@ -42,6 +42,6 @@ sudo docker run \
   -p 30213:30213 \
   -p 50000:50000 \
   -p 50001:50001 \
-  sapse/abap-platform-trial:1909 \
+  sapse/abap-cloud-developer-trial \
   -skip-limits-check \
   --agree-to-sap-license
