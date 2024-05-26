@@ -39,7 +39,7 @@ gcloud iam service-accounts create abap-sdk-dev \
 gcloud compute instances create abap-trial-docker \
     --project=$PROJECT_NAME \
     --zone=$ZONE \
-    --machine-type=e2-highmem-2 \
+    --machine-type=e2-highmem-4 \
     --network-interface=network-tier=PREMIUM,stack-type=IPV4_ONLY,subnet=default \
     --metadata=startup-script=curl\ \
 https://raw.githubusercontent.com/kulugithub/KRepository/master/vm_startup_script.sh\ -o\ /tmp/vm_startup_script.sh$'\n'chmod\ 755\ /tmp/vm_startup_script.sh$'\n'nohup\ /tmp/vm_startup_script.sh\ \>\ /tmp/output.txt\ \& \
